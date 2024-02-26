@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className="navbar navbar-expand-lg bg-tertiary fixed-top"
+      className="navbar navbar-expand-lg bg-tertiary"
       style={{
         backgroundColor: "#008000",
         border: "3px solid white",
