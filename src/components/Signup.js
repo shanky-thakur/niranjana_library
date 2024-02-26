@@ -60,7 +60,7 @@ const Signup = () => {
       if (resp.success) {
         alert("successfully created your profile");
         sendMAil();
-        window.location.href = "/Login";
+        window.location.href = "./Home";
       } else {
         alert(
           "either format of email/password is incorrect or the email is already registered"

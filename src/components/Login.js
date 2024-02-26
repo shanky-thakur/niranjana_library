@@ -53,7 +53,7 @@ const Login = () => {
         if(resp.success){
           alert("successfully logged in");
           updatelogged();
-          window.location.href = '/Home';
+          window.location.href = './Home';
         }else{
           alert("either email or password is incorrect");
         }
