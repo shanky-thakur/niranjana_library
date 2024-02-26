@@ -31,7 +31,7 @@ const Headers = () => {
                 borderRadius: "12px",
               }}
             ></img>
-            <h5 className="card-title" style={{ fontSize: "250%" }}>
+            <h5 className="card-title" style={{ fontSize: "200%" }}>
               <b>
                 <u>Niranjana Libraries</u>
               </b>

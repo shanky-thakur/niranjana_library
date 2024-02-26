@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import BookComponent from "./BookComponent";
+import { Link } from 'react-router-dom';
 
 const AllBooks = () => {
   const [articles, setArticles] = useState([]);
@@ -57,6 +58,65 @@ const AllBooks = () => {
           get started
         </button>
       </div>
+      <div style={{ marginTop: "3.5%", marginLeft: "25%" }}>
+        <div
+          className="card text-center bg-transparent"
+          style={{
+            width: "65%",
+            backgroundColor: "transparent",
+            color: "#808000",
+            border: "none",
+            borderBlockColor: "transparent",
+            borderBottomColor: "transparent",
+          }}
+        >
+          <div className="card-body">
+            <img
+              src="favicon.png"
+              alt="error"
+              style={{
+                width: "20%",
+                marginBottom: "1%",
+                border: "2px solid black",
+                borderRadius: "12px",
+              }}
+            ></img>
+            <h5 className="card-title">Niranjana Libraries</h5>
+            <p className="card-text">
+              for any query regarding any issue or complaint, kindly contact
+              here
+              <br />
+              <a
+                href="https://www.linkedin.com/in/deepanshu-thakur-92a17a262"
+                target="_blanck"
+                alt="error"
+              >
+                <i className="fa-brands fa-linkedin"></i>
+              </a>
+              <a
+                href="mailto:thakurdeepanshu420@gmail.com"
+                target="_blanck"
+                alt="error"
+              >
+                <i
+                  className="fa-solid fa-envelope"
+                  style={{ marginLeft: "2%" }}
+                ></i>
+              </a>
+            </p>
+            <Link
+              to="/Contact"
+              className="btn btn-primary"
+              style={{ border: "2px solid black" }}
+            >
+              Contact
+            </Link>
+            <p style={{ marginTop: "2%" }}>
+              made with &hearts; by ~deepanshu thakur
+            </p>
+          </div>
+        </div>
+      </div>
     </>
   ) : (
     <>
@@ -87,6 +147,65 @@ const AllBooks = () => {
                 </div>
               );
             })}
+          </div>
+        </div>
+      </div>
+      <div style={{ marginTop: "3.5%", marginLeft: "25%" }}>
+        <div
+          className="card text-center bg-transparent"
+          style={{
+            width: "65%",
+            backgroundColor: "transparent",
+            color: "#808000",
+            border: "none",
+            borderBlockColor: "transparent",
+            borderBottomColor: "transparent",
+          }}
+        >
+          <div className="card-body">
+            <img
+              src="favicon.png"
+              alt="error"
+              style={{
+                width: "20%",
+                marginBottom: "1%",
+                border: "2px solid black",
+                borderRadius: "12px",
+              }}
+            ></img>
+            <h5 className="card-title">Niranjana Libraries</h5>
+            <p className="card-text">
+              for any query regarding any issue or complaint, kindly contact
+              here
+              <br />
+              <a
+                href="https://www.linkedin.com/in/deepanshu-thakur-92a17a262"
+                target="_blanck"
+                alt="error"
+              >
+                <i className="fa-brands fa-linkedin"></i>
+              </a>
+              <a
+                href="mailto:thakurdeepanshu420@gmail.com"
+                target="_blanck"
+                alt="error"
+              >
+                <i
+                  className="fa-solid fa-envelope"
+                  style={{ marginLeft: "2%" }}
+                ></i>
+              </a>
+            </p>
+            <Link
+              to="/Contact"
+              className="btn btn-primary"
+              style={{ border: "2px solid black" }}
+            >
+              Contact
+            </Link>
+            <p style={{ marginTop: "2%" }}>
+              made with &hearts; by ~deepanshu thakur
+            </p>
           </div>
         </div>
       </div>
